@@ -39,23 +39,20 @@ export default function Carta() {
 
   return (
     <div
-      className={`max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-10 ${dailyFondo} h-90vh`}
-      style={{ height: "90vh" }}
+      className={`max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-10 ${dailyFondo}`}
     >
       <div className="flex items-center justify-center p-4">
         <FaBible className="text-white text-4xl" />
       </div>
-      <div className="p-6 flex flex-col justify-between h-full">
-        <div>
-          <h1 className="text-2xl font-bold mb-4">{salmos[0].titulo}</h1>
-          <p className="text-gray-700 mb-4">{salmos[0].detalle}</p>
-        </div>
-        <footer className="text-gray-600 text-sm mt-auto">
+      <div className="p-6">
+        <h1 className="text-2xl font-bold mb-4">{salmos[0].titulo}</h1>
+        <p className="text-gray-700 mb-4">{salmos[0].detalle}</p>
+        <footer className="text-gray-600 text-sm">
           <p>Palabra del Señor</p>
-          <button onClick={handleFavoritoClick} className="mt-4 text-red-500">
-            {isFavorito ? <FaHeart /> : <FaRegHeart />}
-          </button>
         </footer>
+        <button onClick={handleFavoritoClick} className="mt-4 text-red-500">
+          {isFavorito ? <FaHeart /> : <FaRegHeart />}
+        </button>
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ export default {
     extend: {},
     fontFamily: {
       body: ["Shadows Into Light", "cursive"],
+      detalle: ["Rajdhani", "sans-serif"],
     },
     plugins: [],
   },

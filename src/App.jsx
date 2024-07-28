@@ -1,13 +1,19 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import Carta from "./Components/Carta";
+import Favoritos from "./Components/Favoritos";
 import "./App.css";
-import Carta from "./Components/Carta.jsx";
 
 function App() {
   return (
-    <>
+    <Router>
       <div>
-        <Carta />
+        <Routes>
+          <Route exact path="/" element={<Carta />} />
+          <Route path="/favoritos" element={<Favoritos />} />
+        </Routes>
       </div>
-    </>
+    </Router>
   );
 }
 

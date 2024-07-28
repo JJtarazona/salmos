@@ -1,229 +1,163 @@
 export const salmos = [
   {
-    titulo: "Salmo 23:1",
-    detalle: "El Señor es mi pastor, nada me falta.",
-  },
-  {
-    titulo: "Salmo 27:1",
+    titulo: "Salmo 23:1-4",
     detalle:
-      "El Señor es mi luz y mi salvación, ¿a quién temeré? El Señor es la fortaleza de mi vida, ¿de quién me asustaré?",
+      "El Señor es mi pastor, nada me falta. En verdes pastos me hace descansar, junto a tranquilas aguas me conduce; me infunde nuevas fuerzas. Me guía por sendas de justicia por amor a su nombre. Aunque pase por el valle de sombra de muerte, no temeré mal alguno, porque tú estás conmigo; tu vara y tu cayado me infunden aliento.",
   },
   {
-    titulo: "Salmo 34:4",
+    titulo: "Salmo 27:1-3",
     detalle:
-      "Busqué al Señor y él me respondió; me libró de todos mis temores.",
+      "El Señor es mi luz y mi salvación, ¿a quién temeré? El Señor es la fortaleza de mi vida, ¿de quién me asustaré? Cuando los malvados avanzan contra mí para devorar mis carnes, cuando mis enemigos y mis adversarios me atacan, son ellos los que tropiezan y caen. Aunque un ejército acampe contra mí, mi corazón no temerá; aunque estalle una guerra contra mí, incluso entonces, estaré confiado.",
   },
   {
-    titulo: "Salmo 46:1",
+    titulo: "Salmo 34:4-7",
     detalle:
-      "Dios es nuestro refugio y nuestra fortaleza, poderoso defensor en el peligro.",
+      "Busqué al Señor, y él me respondió; me libró de todos mis temores. Los que miran hacia él quedan radiantes de alegría; jamás su rostro se cubre de vergüenza. Este pobre clamó, y el Señor le oyó y lo libró de todas sus angustias. El ángel del Señor acampa en torno a los que le temen; a su lado está para librarlos.",
   },
   {
-    titulo: "Salmo 55:22",
+    titulo: "Salmo 46:1-3",
     detalle:
-      "Echa sobre el Señor tu carga y él te sustentará; nunca permitirá que el justo caiga.",
+      "Dios es nuestro refugio y nuestra fortaleza, nuestro pronto auxilio en las tribulaciones. Por tanto, no temeremos aunque la tierra sufra cambios, y aunque los montes se deslicen al fondo de los mares; aunque bramen y se agiten sus aguas, aunque tiemblen los montes con creciente furor.",
   },
   {
-    titulo: "Salmo 91:1",
+    titulo: "Salmo 91:1-4",
     detalle:
-      "El que habita al abrigo del Altísimo se acoge a la sombra del Todopoderoso.",
+      "El que habita al abrigo del Altísimo morará bajo la sombra del Omnipotente. Diré yo al Señor: Mi refugio y mi fortaleza, mi Dios, en quien confío. Porque él te libra del lazo del cazador y de la peste destructora. Con sus plumas te cubrirá, y bajo sus alas hallarás refugio; su verdad es escudo y adarga.",
   },
   {
-    titulo: "Salmo 103:2-3",
+    titulo: "Salmo 103:1-5",
     detalle:
-      "Bendice, alma mía, al Señor, y no olvides ninguno de sus beneficios. Él perdona todas tus iniquidades y sana todas tus dolencias.",
+      "Bendice, alma mía, al Señor, y bendiga todo mi ser su santo nombre. Bendice, alma mía, al Señor, y no olvides ninguno de sus beneficios. Él es quien perdona todas tus iniquidades, el que sana todas tus dolencias; el que rescata del hoyo tu vida, el que te corona de favores y misericordias; el que sacia de bien tu boca de modo que te rejuvenezcas como el águila.",
   },
   {
-    titulo: "Salmo 121:1-2",
+    titulo: "Salmo 121:1-4",
     detalle:
-      "Levanto mis ojos a los montes; ¿de dónde viene mi ayuda? Mi ayuda viene del Señor, que hizo los cielos y la tierra.",
+      "Alzaré mis ojos a los montes; ¿de dónde vendrá mi socorro? Mi socorro viene del Señor, que hizo los cielos y la tierra. No permitirá que tu pie resbale; no se dormirá el que te guarda. He aquí, no se adormecerá ni dormirá el que guarda a Israel.",
   },
   {
-    titulo: "Salmo 126:5",
-    detalle: "Los que siembran con lágrimas cosecharán con gritos de alegría.",
-  },
-  {
-    titulo: "Salmo 138:7",
+    titulo: "Salmo 139:1-3",
     detalle:
-      "Aunque pase yo por angustias, tú me darás vida; contra el furor de mis enemigos extenderás tu mano, y me salvará tu diestra.",
+      "Señor, tú me has examinado y me conoces. Tú conoces mi sentarme y mi levantarme; desde lejos comprendes mis pensamientos. Mi senda y mi acostarme has escudriñado, y estás familiarizado con todos mis caminos.",
   },
   {
-    titulo: "Salmo 16:8",
+    titulo: "Salmo 145:8-10",
     detalle:
-      "Siempre tengo presente al Señor; con él a mi derecha, jamás vacilaré.",
+      "El Señor es clemente y compasivo, lento para la ira y grande en misericordia. El Señor es bueno para con todos, y su compasión, sobre todas sus obras. Te alaben, Señor, todas tus obras, y tus santos te bendigan.",
   },
   {
-    titulo: "Salmo 31:24",
-    detalle: "Sean fuertes y valientes, todos los que esperan en el Señor.",
-  },
-  {
-    titulo: "Salmo 18:2",
+    titulo: "Salmo 37:3-5",
     detalle:
-      "El Señor es mi roca, mi fortaleza y mi libertador; mi Dios es mi roca, en quien me refugio, mi escudo y el poder de mi salvación, mi torre inexpugnable.",
+      "Confía en el Señor y haz el bien; habita en la tierra y cultiva la fidelidad. Deléitate en el Señor, y él te concederá los deseos de tu corazón. Encomienda al Señor tu camino, confía en él, y él actuará.",
+  },
+  {
+    titulo: "Salmo 51:10-12",
+    detalle:
+      "Crea en mí, oh Dios, un corazón limpio, y renueva un espíritu recto dentro de mí. No me eches de tu presencia, y no quites de mí tu santo Espíritu. Vuélveme el gozo de tu salvación, y espíritu noble me sustente.",
+  },
+  {
+    titulo: "Salmo 73:23-26",
+    detalle:
+      "Con todo, yo siempre estuve contigo; me tomaste de la mano derecha. Me has guiado según tu consejo, y después me recibirás en gloria. ¿A quién tengo yo en los cielos sino a ti? Y fuera de ti nada deseo en la tierra. Mi carne y mi corazón desfallecen; pero la roca de mi corazón y mi porción es Dios para siempre.",
+  },
+  {
+    titulo: "Salmo 84:10-12",
+    detalle:
+      "Porque mejor es un día en tus atrios que mil fuera de ellos. Prefiero estar en el umbral de la casa de mi Dios que habitar en las moradas de maldad. Porque sol y escudo es el Señor Dios; gracia y gloria da el Señor. Nada bueno niega a los que andan en integridad. Oh Señor de los ejércitos, ¡dichoso el hombre que en ti confía!",
+  },
+  {
+    titulo: "Salmo 100:1-5",
+    detalle:
+      "Aclama al Señor, toda la tierra. Sirvan al Señor con alegría; vengan ante él con cánticos de júbilo. Reconozcan que el Señor es Dios; él nos hizo, y no nosotros a nosotros mismos; pueblo suyo somos y ovejas de su prado. Entren por sus puertas con acción de gracias y a sus atrios con alabanza; denle gracias, bendigan su nombre. Porque el Señor es bueno; para siempre es su misericordia, y su fidelidad por todas las generaciones.",
+  },
+  {
+    titulo: "Salmo 130:1-4",
+    detalle:
+      "Desde lo más profundo, Señor, he clamado a ti. Señor, oye mi voz; estén atentos tus oídos a la voz de mis súplicas. Si tú, Señor, tuvieses en cuenta las iniquidades, ¿quién, oh Señor, podría mantenerse? Pero en ti hay perdón, para que seas reverenciado.",
+  },
+  {
+    titulo: "Salmo 136:1-4",
+    detalle:
+      "Den gracias al Señor, porque él es bueno; porque para siempre es su misericordia. Den gracias al Dios de los dioses, porque para siempre es su misericordia. Den gracias al Señor de los señores, porque para siempre es su misericordia. Al único que hace grandes maravillas, porque para siempre es su misericordia.",
+  },
+  {
+    titulo: "Salmo 18:1-3",
+    detalle:
+      "Te amo, Señor, fortaleza mía. El Señor es mi roca y mi fortaleza y mi libertador; mi Dios, mi roca, en quien me refugio; mi escudo y el cuerno de mi salvación, mi alto refugio. Invoco al Señor, que es digno de ser alabado, y soy salvo de mis enemigos.",
+  },
+  {
+    titulo: "Salmo 19:1-4",
+    detalle:
+      "Los cielos cuentan la gloria de Dios, y el firmamento anuncia la obra de sus manos. Un día emite palabra a otro día, y una noche a otra noche declara sabiduría. No hay lenguaje, no hay palabras, ni es oída su voz. Por toda la tierra salió su voz, y hasta el extremo del mundo sus palabras.",
+  },
+  {
+    titulo: "Salmo 25:4-7",
+    detalle:
+      "Señor, muéstrame tus caminos, enséñame tus sendas. Encamíname en tu verdad y enséñame, porque tú eres el Dios de mi salvación; en ti espero todo el día. Acuérdate, Señor, de tus bondades y de tus misericordias, que son eternas. De los pecados de mi juventud y de mis transgresiones no te acuerdes; conforme a tu misericordia acuérdate de mí, por tu bondad, oh Señor.",
+  },
+  {
+    titulo: "Salmo 27:4-5",
+    detalle:
+      "Una cosa he pedido al Señor, y esa buscaré: que habite yo en la casa del Señor todos los días de mi vida, para contemplar la hermosura del Señor y para meditar en su templo. Porque en el día de la angustia me ocultará en su tabernáculo; en lo secreto de su tienda me esconderá; sobre una roca me pondrá en alto.",
+  },
+  {
+    titulo: "Salmo 32:1-2",
+    detalle:
+      "Bienaventurado aquel cuya transgresión ha sido perdonada, y cubierto su pecado. Bienaventurado el hombre a quien el Señor no culpa de iniquidad, y en cuyo espíritu no hay engaño.",
+  },
+  {
+    titulo: "Salmo 40:1-3",
+    detalle:
+      "Pacientemente esperé al Señor, y se inclinó a mí y oyó mi clamor. Me sacó del pozo de la desesperación, del lodo cenagoso; puso mis pies sobre una roca y afirmó mis pasos. Puso en mi boca un cántico nuevo, un himno de alabanza a nuestro Dios. Muchos verán esto y temerán, y confiarán en el Señor.",
+  },
+  {
+    titulo: "Salmo 42:1-2",
+    detalle:
+      "Como el ciervo anhela las corrientes de las aguas, así suspira por ti, oh Dios, el alma mía. Mi alma tiene sed de Dios, del Dios viviente; ¿cuándo vendré y me presentaré delante de Dios?",
+  },
+  {
+    titulo: "Salmo 51:1-2",
+    detalle:
+      "Ten piedad de mí, oh Dios, conforme a tu misericordia; conforme a lo inmenso de tu compasión borra mis transgresiones. Lávame por completo de mi maldad, y límpiame de mi pecado.",
+  },
+  {
+    titulo: "Salmo 63:1-4",
+    detalle:
+      "Dios, Dios mío eres tú; te buscaré con afán. Mi alma tiene sed de ti, mi carne te anhela cual tierra seca y árida donde no hay agua. Así te contemplaba en el santuario, para ver tu poder y tu gloria. Porque tu misericordia es mejor que la vida, mis labios te alabarán. Así te bendeciré mientras viva, en tu nombre alzaré mis manos.",
   },
   {
     titulo: "Salmo 62:1-2",
     detalle:
-      "En Dios solamente descansa mi alma; de él viene mi salvación. Sólo él es mi roca y mi salvación; él es mi refugio, no resbalaré.",
+      "En Dios solamente espera en silencio mi alma; de él viene mi salvación. Sólo él es mi roca y mi salvación, mi baluarte, nunca seré sacudido.",
   },
   {
-    titulo: "Salmo 27:14",
-    detalle: "Espera al Señor; sé fuerte y valiente; espera al Señor.",
-  },
-  {
-    titulo: "Salmo 34:18",
+    titulo: "Salmo 71:1-3",
     detalle:
-      "El Señor está cerca de los quebrantados de corazón y salva a los de espíritu abatido.",
+      "En ti, oh Señor, me he refugiado; jamás sea yo avergonzado. En tu justicia líbrame y rescátame; inclina a mí tu oído y sálvame. Sé tú para mí una roca de refugio adonde recurra yo continuamente; tú has dado mandamiento para salvarme, porque tú eres mi roca y mi fortaleza.",
   },
   {
-    titulo: "Salmo 71:5",
+    titulo: "Salmo 84:1-2",
     detalle:
-      "Porque tú, oh Señor Dios, eres mi esperanza, mi seguridad desde mi juventud.",
+      "¡Cuán amables son tus moradas, oh Señor de los ejércitos! Mi alma anhela y aún desea con ansias los atrios del Señor; mi corazón y mi carne cantan con gozo al Dios vivo.",
   },
   {
-    titulo: "Salmo 118:24",
+    titulo: "Salmo 91:14-16",
     detalle:
-      "Este es el día que hizo el Señor; nos gozaremos y alegraremos en él.",
+      "Porque en mí ha puesto su amor, yo entonces lo libraré; lo exaltaré, porque ha conocido mi nombre. Me invocará, y le responderé; con él estaré yo en la angustia; lo libraré y le glorificaré. Lo saciaré de larga vida, y le haré ver mi salvación.",
   },
   {
-    titulo: "Salmo 145:18-19",
+    titulo: "Salmo 95:1-3",
     detalle:
-      "El Señor está cerca de todos los que le invocan, de todos los que le invocan con sinceridad. Él cumple el deseo de los que le temen; escucha su clamor y los salva.",
+      "Vengan, cantemos con gozo al Señor, aclamemos con júbilo a la roca de nuestra salvación. Lleguemos ante su presencia con acción de gracias, aclamémosle con salmos. Porque el Señor es Dios grande, y Rey grande sobre todos los dioses.",
   },
   {
-    titulo: "Salmo 40:1",
+    titulo: "Salmo 98:1-3",
     detalle:
-      "Pacientemente esperé al Señor, y se inclinó a mí y oyó mi clamor.",
+      "Canten al Señor un cántico nuevo, porque ha hecho maravillas, su diestra y su santo brazo le han dado la victoria. El Señor ha dado a conocer su salvación, a la vista de las naciones ha revelado su justicia. Se ha acordado de su misericordia y de su fidelidad para con la casa de Israel; todos los confines de la tierra han visto la salvación de nuestro Dios.",
   },
   {
-    titulo: "Salmo 37:4",
+    titulo: "Salmo 103:11-13",
     detalle:
-      "Disfruta de la presencia del Señor, y él te dará lo que tu corazón desea.",
-  },
-  {
-    titulo: "Salmo 94:19",
-    detalle:
-      "Cuando en mí la angustia iba en aumento, tu consuelo llenaba mi alma de alegría.",
-  },
-  {
-    titulo: "Salmo 20:4",
-    detalle: "Te conceda lo que tu corazón desea y cumpla todos tus proyectos.",
-  },
-  {
-    titulo: "Salmo 32:8",
-    detalle:
-      "Te haré entender, y te enseñaré el camino en que debes andar; sobre ti fijaré mis ojos.",
-  },
-  {
-    titulo: "Salmo 119:105",
-    detalle: "Tu palabra es una lámpara a mis pies y una luz en mi camino.",
-  },
-  {
-    titulo: "Salmo 34:8",
-    detalle:
-      "Gusten y vean qué bueno es el Señor; dichoso el hombre que se refugia en él.",
-  },
-  {
-    titulo: "Salmo 9:9-10",
-    detalle:
-      "El Señor será refugio del pobre, su amparo en momentos de angustia. En ti confiarán los que conocen tu nombre, porque tú, Señor, no abandonas a los que te buscan.",
-  },
-  {
-    titulo: "Salmo 68:19",
-    detalle:
-      "Bendito sea el Señor, que cada día lleva nuestra carga; el Dios de nuestra salvación.",
-  },
-  {
-    titulo: "Salmo 3:3",
-    detalle:
-      "Pero tú, Señor, eres escudo en torno a mí, mi gloria, tú mantienes alta mi cabeza.",
-  },
-  {
-    titulo: "Salmo 56:3",
-    detalle: "Cuando tengo miedo, pongo en ti mi confianza.",
-  },
-  {
-    titulo: "Salmo 16:11",
-    detalle:
-      "Me mostrarás la senda de la vida; en tu presencia hay plenitud de gozo; delicias a tu diestra para siempre.",
-  },
-  {
-    titulo: "Salmo 63:1",
-    detalle:
-      "Dios, Dios mío eres tú; de madrugada te buscaré; mi alma tiene sed de ti, mi carne te anhela, en tierra seca y árida donde no hay aguas.",
-  },
-  {
-    titulo: "Salmo 73:26",
-    detalle:
-      "Mi carne y mi corazón desfallecen; pero Dios es la fortaleza de mi corazón y mi porción para siempre.",
-  },
-  {
-    titulo: "Salmo 84:11",
-    detalle:
-      "Porque sol y escudo es el Señor; el Señor otorga gracia y gloria; no niega el bien a los que andan en integridad.",
-  },
-  {
-    titulo: "Salmo 57:1",
-    detalle:
-      "Ten misericordia de mí, oh Dios, ten misericordia de mí; porque en ti ha confiado mi alma, y en la sombra de tus alas me ampararé hasta que pasen los quebrantos.",
-  },
-  {
-    titulo: "Salmo 86:5",
-    detalle:
-      "Porque tú, Señor, eres bueno y perdonador, y grande en misericordia para con todos los que te invocan.",
-  },
-  {
-    titulo: "Salmo 5:11",
-    detalle:
-      "Pero alégrense todos los que en ti confían; den voces de júbilo para siempre, porque tú los defiendes; en ti se regocijen los que aman tu nombre.",
-  },
-  {
-    titulo: "Salmo 37:5",
-    detalle: "Encomienda al Señor tu camino; confía en él, y él hará.",
-  },
-  {
-    titulo: "Salmo 119:50",
-    detalle:
-      "Este es mi consuelo en mi aflicción: que tu promesa me ha vivificado.",
-  },
-  {
-    titulo: "Salmo 86:15",
-    detalle:
-      "Mas tú, Señor, Dios misericordioso y clemente, lento para la ira y grande en misericordia y verdad.",
-  },
-  {
-    titulo: "Salmo 89:1",
-    detalle:
-      "Cantaré eternamente las misericordias del Señor; con mi boca daré a conocer tu fidelidad a todas las generaciones.",
-  },
-  {
-    titulo: "Salmo 94:14",
-    detalle:
-      "Porque el Señor no abandonará a su pueblo, ni desamparará a su heredad.",
-  },
-  {
-    titulo: "Salmo 98:1",
-    detalle:
-      "Canten al Señor un cántico nuevo, porque ha hecho maravillas; su diestra y su santo brazo le han dado la victoria.",
-  },
-  {
-    titulo: "Salmo 100:5",
-    detalle:
-      "Porque el Señor es bueno; para siempre es su misericordia, y su fidelidad por todas las generaciones.",
-  },
-  {
-    titulo: "Salmo 106:1",
-    detalle:
-      "Aleluya. Alaben al Señor, porque él es bueno; porque para siempre es su misericordia.",
-  },
-  {
-    titulo: "Salmo 118:6",
-    detalle: "El Señor está conmigo; no temeré. ¿Qué puede hacerme el hombre?",
-  },
-  {
-    titulo: "Salmo 119:114",
-    detalle:
-      "Tú eres mi refugio y mi escudo; en tu palabra he puesto mi esperanza.",
+      "Porque como la altura de los cielos sobre la tierra, engrandeció su misericordia sobre los que le temen. Cuanto dista el oriente del occidente, hizo alejar de nosotros nuestras transgresiones. Como el padre se compadece de los hijos, se compadece el Señor de los que le temen.",
   },
 ];
 

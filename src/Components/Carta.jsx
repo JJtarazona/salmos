@@ -2,6 +2,9 @@ import React, { useState, useEffect } from "react";
 import { FaBible, FaHeart, FaRegHeart } from "react-icons/fa";
 import { fondo } from "./data";
 import { salmos } from "./data";
+import salmoimg from "../../public/salmosimg2.svg";
+
+import forma from "../../public/forma.svg";
 
 export default function Carta() {
   const [dailyFondo, setDailyFondo] = useState(fondo[0].fondo);
@@ -39,17 +42,26 @@ export default function Carta() {
 
   return (
     <div
-      className={`max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-10 ${dailyFondo}`}
+      className={`relative max-w-2xl mx-auto bg-white shadow-lg rounded-3xl overflow-hidden  ${dailyFondo}`}
     >
-      <div className="flex items-center justify-center p-4">
-        <FaBible className="text-white text-4xl" />
+      {/* Imagen de fondo con opacidad */}
+      <div className="absolute inset-0">
+        <img
+          src={forma}
+          alt="Fondo"
+          className="w-full h-full object-cover opacity-30"
+        />
       </div>
-      <div className="p-6">
-        <h1 className="text-2xl font-bold mb-4">{salmos[0].titulo}</h1>
-        <p className="text-gray-700 mb-4">{salmos[0].detalle}</p>
-        <footer className="text-gray-600 text-sm">
-          <p>Palabra del Señor</p>
-        </footer>
+
+      <div className="relative flex items-center justify-center">
+        <img src={salmoimg} alt="" />
+      </div>
+      <div className="relative p-6">
+        <h1 className="text-5xl font-bold font-body mb-4">
+          {salmos[0].titulo}
+        </h1>
+        <p className="text-gray-700 mb-4 ">{salmos[0].detalle}</p>
+        <footer className="text-gray-600 text-sm"></footer>
         <button onClick={handleFavoritoClick} className="mt-4 text-red-500">
           {isFavorito ? <FaHeart /> : <FaRegHeart />}
         </button>

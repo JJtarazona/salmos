@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 export default function Carta() {
   const [dailyFondo, setDailyFondo] = useState(fondo[0].fondo);
   const [isFavorito, setIsFavorito] = useState(false);
+  const [dailySalmo, setDailySalmo] = useState(salmos[0]);
   const navigate = useNavigate();
   const todayDate = new Date().toLocaleDateString();
 
@@ -17,15 +18,18 @@ export default function Carta() {
     const randomFondo = fondo[today % fondo.length].fondo;
     setDailyFondo(randomFondo);
 
+    const salmoIndex = today % salmos.length;
+    const selectedSalmo = salmos[salmoIndex];
+    setDailySalmo(selectedSalmo);
+
     const favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
-    const todaySalmo = salmos[0];
-    const isFav = favoritos.some((fav) => fav.titulo === todaySalmo.titulo);
+    const isFav = favoritos.some((fav) => fav.titulo === selectedSalmo.titulo);
     setIsFavorito(isFav);
   }, []);
 
   const handleFavoritoClick = () => {
     const favoritos = JSON.parse(localStorage.getItem("favoritos")) || [];
-    const todaySalmo = salmos[0];
+    const todaySalmo = dailySalmo;
 
     if (isFavorito) {
       const newFavoritos = favoritos.filter(
@@ -64,10 +68,10 @@ export default function Carta() {
               <img src={salmoimg} alt="Salmo" className="w-24 h-24" />
             </div>
             <h1 className="text-5xl font-bold text-gray-700 font-body mb-4">
-              {salmos[0].titulo}
+              {dailySalmo.titulo}
             </h1>
             <p className="text-black font-bold text-pretty">
-              {salmos[0].detalle}
+              {dailySalmo.detalle}
             </p>
             <footer className="text-gray-600 text-sm"></footer>
             <button onClick={handleFavoritoClick} className="mt-4 text-red-500">
